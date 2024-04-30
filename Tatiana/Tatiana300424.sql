@@ -1,6 +1,6 @@
-CREATE DATABASE db_social_network;
+CREATE DATABASE social_network;
 
-CREATE TABLE social_network_users (
+CREATE TABLE users (
 	id int primary key auto_increment,
 	created_at timestamp,
 	fullname varchar(128),
@@ -8,7 +8,7 @@ CREATE TABLE social_network_users (
 	country varchar(64),
 	is_blocked bool
 );
-CREATE TABLE social_network_publications (
+CREATE TABLE publications (
 	id int primary key auto_increment,
 	created_at timestamp,
 	text varchar(128),
