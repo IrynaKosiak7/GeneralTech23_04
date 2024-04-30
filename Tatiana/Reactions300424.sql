@@ -3,6 +3,6 @@ CREATE TABLE reactions (
 	created_at timestamp,
 	reaction varchar(128),
 	user_id int,
-	message_id int
+	publication_id int
 
 );
