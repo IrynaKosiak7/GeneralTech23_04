@@ -8,9 +8,10 @@ CREATE TABLE users (
 	country varchar(64),
 	is_blocked bool
 );
-CREATE TABLE publications (
-	id int primary key auto_increment,
-	created_at timestamp,
-	text varchar(128),
-
+create table publications(
+  id int primary key auto_increment,
+  created_at timestamp,
+  author_id int,
+  title varchar(256),
+  content varchar(4096)
 );
