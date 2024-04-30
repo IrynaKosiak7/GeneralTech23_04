@@ -1,4 +1,5 @@
 CREATE DATABASE social_network;
+use social_network;
 
 CREATE TABLE users (
 	id int primary key auto_increment,
