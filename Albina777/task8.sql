@@ -1,5 +1,6 @@
 CREATE DATABASE social_network;
 
+USE social_network;
 
 CREATE TABLE users (
     id int,
@@ -10,7 +11,7 @@ CREATE TABLE users (
 );
 
 
-USE social_network;
+
 
 CREATE TABLE  publications (
     id int,
