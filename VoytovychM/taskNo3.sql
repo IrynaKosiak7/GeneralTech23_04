@@ -1,2 +1,0 @@
--- create two users
-insert into users (created_at, name, email, country, is_blocked) values (current_timestamp(), "Michael Weigner", "m.weigner@gmail.com", "Germany", false), (current_timestamp(), "Volodymyr Voytovych", "v.voytovych@gmail.com", "Germany", false);
