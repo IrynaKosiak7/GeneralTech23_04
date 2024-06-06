@@ -1,6 +1,5 @@
 // Вывести имена всех юзеров
+
 db.users.find(
     {},
-     {fullname:1, _id:0}
-
-)
+    { fullname:1,  _id:0})
